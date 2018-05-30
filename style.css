@@ -16,4 +16,5 @@ li{
     background-attachment: scroll;
     opacity: 0.4; 
     filter: alpha(opacity=20);
+    z-index: -1;
 }
