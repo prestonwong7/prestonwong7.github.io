@@ -16,8 +16,9 @@ p{
 
 #bgimage{
     position:absolute;
-    background-repeat: repeat;
-    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     opacity: 0.3; 
     filter: alpha(opacity=20);
     z-index: -1;
@@ -28,8 +29,17 @@ h1{
     font-size: 60px;
 }
 
+h2{
+    font-size: 30;
+}
+
 hr{
     display: block;
     height: 2;
     background-color: white;
+}
+
+dt{
+    font-size: 20;
+    color: floralwhite;
 }
