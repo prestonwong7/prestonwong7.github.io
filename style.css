@@ -1,4 +1,8 @@
 ul {
+    color:floralwhite;
+    position: absolute;
+    top: 8px;
+    right: 16px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -7,25 +11,30 @@ ul {
 }
 
 li{
+    color:white;
     display: inline;
+    
 }
 
 p{
+    color:whitesmoke;
     font-family: cursive;
 }
 
 #bgimage{
     position:absolute;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-attachment: fixed;
-    opacity: 0.3; 
+    opacity: 1; 
     filter: alpha(opacity=20);
     z-index: -1;
     
 }
 
 h1{
+    position: absolute;
+    color:white;
     font-style: italic;
     font-size: 60px;
 }
