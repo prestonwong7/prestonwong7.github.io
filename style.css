@@ -16,30 +16,88 @@ li{
     
 }
 
-p{
+div {
+    max-width: inherit;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#title {
+    position:absolute;
+    top: 20px;
+/*    left: 0;*/
+    animation: type 3s steps(22);
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+@keyframes type{
+    0% {
+        width:0ch;
+    }
+    100% {
+        width: 21ch;
+    }
+}
+
+h1{
+    position: relative;
+    color:white;
+    font-style: italic;
+    font-size: 60px;
+    margin-left: auto; /* to center*/
+    margin-right: auto; /* to center*/
+    right: 10px;
+}
+
+p,p4{
+    position: relative;
     color:whitesmoke;
     font-family: cursive;
+/*    white-space: nowrap;*/
+    top:8px;
+/*    float:left;*/
+}
+
+.text-block {
+    top:10000px;
+}
+
+body {
+    background: black;
+    width: auto;
+}
+
+.section1,section2,section3,section4{
+    position: relative;
 }
 
 #bgimage{
     position:absolute;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     opacity: 1; 
     filter: alpha(opacity=20);
     z-index: -1;
+    margin:0;
+    white-space: nowrap;
     
 }
 
-h1{
-    position: absolute;
-    color:white;
-    font-style: italic;
-    font-size: 60px;
-}
-
 h2{
+    position: relative;
+    top:auto;
     font-size: 30;
 }
 

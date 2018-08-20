@@ -4,40 +4,87 @@
 <head>
         <meta  charset="utf-8">
         <meta name="description" content="Preston's Portfolio">
+        <script src="typing.js"> </script>
         <link rel="stylesheet" href="style.css">
         <title> Preston Wong's Portfolio </title>
 </head>
 
 <body style="text-align: center">
-    
-    <div class="section1">
-         <div style = position: absolute;id="bgimage"; > <img src="Images/background.png" width="100%" height = "100%" alt = "Overwatch Background"></div>
-          <ul>
-            <li><a href="index.html" style="color: antiquewhite">Home</a></li>
-            <li><a href="projects.html" style="color: antiquewhite">Projects</a></li>
-            <li><a href="aboutme.html"  style="color: antiquewhite">About Me</a></li>
-            <li><a href="contactme.html"  style="color: antiquewhite">Contact Me</a></li>
-          </ul>
-       
-        <main>
-            <h1> Preston Wong's Portfolio </h1>
-    <!--        <p><img src="Images/Overwatch.jpg" width="1300" height = "500" alt = "Overwatch Background"></p>-->
-<!--            <hr size="10">-->
-            <p> This is a portfolio of all of my projects and stuff related to me! Click on the tabs on the top to navigate through my site! </p>
-            <img src="Images/NationalGeo.jpg" alt="NationalGeo" style="width:200x;height:600px;">
+    <div id = "container">
+        <div class="section1">
+             <div style = position: absolute;id="bgimage"; > <img src="Images/minimal2.jpg" width="100%" height = "100%" alt = "Earth"></div>
+                <h1 id="title">Welcome to my website</h1>
 
-        </main>
+              <ul>
+<!--                <li><a href="index.html" style="color: antiquewhite">Home</a></li>-->
+                <li><a href="#aboutme" style="color: antiquewhite">About Me</a></li>
+                <li><a href="#projects"  style="color: antiquewhite">Projects</a></li>
+                <li><a href="#contactme"  style="color: antiquewhite">Contact Me</a></li>
+              </ul>
+
+    <!--        <main>-->
+    <!--            <h1> Preston Wong's Portfolio </h1>-->
+        <!--        <p><img src="Images/Overwatch.jpg" width="1300" height = "500" alt = "Overwatch Background"></p>-->
+    <!--            <hr size="10">-->
+    <!--            <img src="Images/NationalGeo.jpg" alt="NationalGeo" style="width:200x;height:600px;">-->
+
+    <!--        </main>-->
+        </div>
+
+        <div class ="section2" id ="section2">
+            <div id="bgimage"> <img src="Images/minimal1.png" width="100%" height = "100%" alt = "Moon Background"> </div>
+            <div class ="text-block">
+                <h1><a name="aboutme"> About Me </a> </h1>
+                <hr size="10">
+                <p> My name is Preston Wong and I currently go to California State University Long Beach as a computer science major. I am twenty years old
+                    and one of my main goal is to create a video game. If not, I would want to work at a Big N company as a software engineer, or a game developer 
+                    if possible. Game developing is a difficult job these days, as there's not a enormous salary and also very stressful, as with most jobs. 
+                    </p>
+                <h2> Hobbies</h2>
+                <p> One of the sports I love playing almost every day is basketball. I have been playing basketball for over ten years, and hope to one day coach or teach kids. The player I love watching the most is Steph Curry, because not only do I shoot as far as him, but his dribbling and ball handling skills is something I would love to achieve in the near future.</p>
+                <p> Another sport I play currently is table tennis and badminton. At my university, I am the president of both the table tennis and badminton club. I used to think that being a president is really simple and easy, such as signing a few papers and delegating positions. However, I couldn't be more wrong, especially leading over twenty members of the club. I also recently got into badminton because my ping pong friends convinced me for a long time to try out badminton. Apparently, the badminton club had been shut down for a while, so I revived the club. Turns out, badminton is one of the most entertaining sports I played in a while. Table tennis and badminton are both so much fun! </p>
+                <h2> Goals </h2>
+                <dl type = "1">
+                <dt>Work</dt>
+                <dd>1. Work at a game company such as Blizzard! I truly love their games. Ever since I was little, I have always been planning to work at their company. The first game I played was Starcraft by them. Watching professional Korean players dominate this field is truly a spectacle to watch. </dd>
+                <dt>Creating a Game</dt>
+                <dd>2. Create a game where it requires fast APM, but first person. Very intensive and action based game. Probably won't happen in a while. </dd>
+                </dl>
+                <img src="Images/APM.gif" alt="APM" style="width:500px;height:200px;">
+                <img src="Images/APM2.gif" alt="APM Gif 2" style="width:500px;height:200px;">
+            </div>
+        </div>
+
+        <div class="section3">
+            <div id="bgimage"; > <img src="Images/minimal3.jpg" width="100%" height = "100%" alt = "moon"> </div>
+                <h1><a name = "projects"> Projects </a> </h1>
+                <hr size="10">
+                <h2> Cerebot </h2>
+                <p> Cerebot is a program I colloaborated creating in human-I-T. I collaborated in creating an automated program in Python that implements Google Drive and Asana API to attach Google Drive files into Asana tasks. It uses OAuth 2.0 as an authentication and authorization tools for safe, multiple employee usage Cerebot is written in Python. One of the main methods I helped with Cerebot is by writing hundreds of test cases to minimize bugs. I also debugged many of the errors such as not searching properly as well as duplication errors. </p>
+                <img src="Images/Cerebot1.png" alt="Cerebot1" style="width:200x;height:300px;">
+                <br>
+                <a href="https://github.com/prestonwong7/Cerebot">Cerebot GitHub</a>
+
+                <h2> Mobile RPG </h2>
+                <p>Mobile RPG is a game created by five developers using Unity 2D that can be used on Android, iOS, and PC. It uses ground sprites called Roguelike/RPG pack created by Kenney. We followed a tutorial on Youtube called GamesPlusJames, which allowed us to make a realistic 2D RPG game. In Mobile RPG, you are a prince who will be going through an intense plot of saving your dad from evil slimes! Grow stronger as you level up, gaining more hp, attack damage, and more! </p>
+                <img src="Images/MobileRPG1.png" alt="MobileRPG" style="width:200x;height:300px;">
+                <br>
+                <a href="https://github.com/prestonwong7/MobileRPG">Mobile RPG GitHub</a>
+        </div>
+
+        <div class="section4">
+            <div id="bgimage"> <img src="Images/minimal4.jpg" width="100%" height = "100%" alt = "moon2"> </div>
+            <div class="text-block">
+
+                <h1 > <a name="contactme"> Contact Information </a></h1>
+                <hr size="10">
+                    <p4> Email: prestonwong7@gmail.com <br> 
+                         Linkedin: <a href="https://www.linkedin.com/in/prestonwong7/">My LinkedIn</a><br>
+                         GitHub: <a href="https://github.com/prestonwong7">My GitHub</a></p4>
+                
+            </div>
+        </div>
     </div>
-    
-    <div class ="section2">
-    <div id="bgimage"> <img src="Images/background.png" width="100%" height = "100%" alt = "Overwatch Background"></div>
-    <h1> Projects </h1>
-    
-    </div>
-    <div class="section3">
-    
-    </div>
-    
 </body>
 
 
