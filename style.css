@@ -77,8 +77,21 @@ body {
     width: auto;
 }
 
+.img{
+    padding: 20px;
+}
+
 .section1,section2,section3,section4{
     position: relative;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 20px;
 }
 
 #bgimage{
