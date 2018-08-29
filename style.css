@@ -32,7 +32,7 @@ div {
     position:absolute;
     top: 20px;
 /*    left: 0;*/
-    animation: type 3s steps(22);
+    animation: type 2s steps(20);
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
