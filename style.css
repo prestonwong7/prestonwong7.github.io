@@ -1,8 +1,8 @@
 ul {
     color:floralwhite;
     position: absolute;
-    top: 8px;
-    right: 16px;
+    top: 25%;
+    left: 34%;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -13,6 +13,7 @@ ul {
 li{
     color:white;
     display: inline;
+
     
 }
 
@@ -30,7 +31,7 @@ div {
 
 #title {
     position:absolute;
-    top: 20px;
+    top: 10%;
 /*    left: 0;*/
     animation: type 2s steps(20);
     overflow: hidden;
@@ -59,9 +60,29 @@ h1{
     right: 10px;
 }
 
-p,p4{
+p{
     position: relative;
     color:whitesmoke;
+    font-family: cursive;
+    top:8px;
+}
+
+p3{
+    position: relative;
+    color:black;
+    font-family: cursive;
+    top:8px;
+}
+
+p4{
+    position: relative;
+    color: blueviolet;
+    font-family: cursive;
+    top:8px;
+}
+p2{
+    position: relative;
+    color: lightblue;
     font-family: cursive;
 /*    white-space: nowrap;*/
     top:8px;
@@ -70,6 +91,7 @@ p,p4{
 
 .text-block {
     top:10000px;
+    color: aliceblue;
 }
 
 body {
@@ -112,12 +134,14 @@ h2{
     position: relative;
     top:auto;
     font-size: 30;
+    color: aquamarine;
 }
 
 hr{
     display: block;
     height: 2;
     background-color: white;
+    color: white;
 }
 
 dt{
