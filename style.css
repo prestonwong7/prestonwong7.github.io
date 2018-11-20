@@ -1,8 +1,8 @@
 ul {
     color:floralwhite;
     position: absolute;
-    top: 25%;
-    left: 34%;
+    top: 35%;
+    left: 33%;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ div {
 
 #title {
     position:absolute;
-    top: 10%;
+    top: 15%;
 /*    left: 0;*/
     animation: type 2s steps(20);
     overflow: hidden;
