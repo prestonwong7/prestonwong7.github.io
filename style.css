@@ -116,6 +116,19 @@ body {
     padding: 20px;
 }
 
+.line-in-middle {
+    width:400px;
+    height:910px;
+
+    background: linear-gradient(to right, 
+	                              transparent 0%, 
+	                              transparent calc(50% - 0.81px), 
+	                              whitesmoke calc(50% - 0.8px), 
+	                              whitesmoke calc(50% + 0.8px), 
+	                              transparent calc(50% + 0.81px), 
+	                              transparent 100%); 
+	}
+
 #bgimage{
     position:absolute;
     background-repeat: no-repeat;
